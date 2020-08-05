@@ -1,0 +1,64 @@
+
+# Site settings
+title: Artificial Intelligence and Statistics Conference
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the AISTATS conference.
+baseurl: "/aistats2001" # the subpath of your site, e.g. /blog/
+url: "http://www.aistats.org" # the base hostname & protocol for your site
+#twitter_username: aistat
+github_username:  aistats
+author:
+  name: AISTATS
+  email:
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: aistats
+
+ghub:
+  edit: true
+  repository: aistats2001
+
+banner: 
+
+# Build settings
+markdown: kramdown
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: main.jpg
+  hide_tentative: true
+  proceedings:
+    url: http://www.gatsby.ucl.ac.uk/aistats/aistats2001/papers.html
+    show: true
+  room: 
+  venue: The Hyatt Hotel
+  venue_url: https://www.hyatt.com/en-US/hotel/florida/hyatt-centric-key-west-resort-and-spa/kwest
+  location: Key West, Florida, USA
+  full_name: Artificial Intelligence and Statistics
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
+  year: 2001
+  instance: 8th
+  styling: International Workshop on
+  dates:
+  - 2001-01-03
+  - 2001-01-06
+  chairs:
+  - type: Program Chairs
+    people:
+    - family: Richardson
+      given: Thomas
+      institute: University of Washington
+      url: 
+    - family: Jaakkola
+      given: Tommi
+      institute: MIT
+      url: 
+# change encoding for the generated output files to utf-8
+encoding: utf-8
+
+
