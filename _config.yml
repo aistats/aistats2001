@@ -32,7 +32,7 @@ conference:
   image: main.jpg
   hide_tentative: true
   proceedings:
-    url: http://www.gatsby.ucl.ac.uk/aistats/aistats2001/papers.html
+    url: http://proceedings.mlr.press/r3/
     show: true
   room: 
   venue: The Hyatt Hotel
